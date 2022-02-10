@@ -20,7 +20,7 @@ public class Matrices {
             }
             for (int i = 0; i < 3; i++){
                   for (int j = 0; j < 3; j++){
-                      System.out.println("En la posicion "+ i +" , "+ j +" esta asignado el valor " + matriz [i] [j]);
+                      System.out.println("En la posición "+ i +" , "+ j +" está asignado el valor " + matriz [i] [j]);
                   }
             }
         
