@@ -8,7 +8,7 @@ public class Vectores {
         // Declaracíon del vector
 
         int vector[] = new int[5];
-        Scanner valorTecleado = new Scanner(System.in);
+         Scanner valorTecleado = new Scanner(System.in);
 
         // Asignación del vector 
         for (int indice = 0; indice < 5; indice++) {
@@ -18,9 +18,9 @@ public class Vectores {
             vector[indice] = valorTecleado.nextInt();
             System.out.println("Acabas de ingresar en la posición " + indice + " del vector el valor " + vector[indice]);
         }
-        
+
         System.out.println("Los valores del arreglo son : ");
-        
+
         for (int recorrer = 0; recorrer < 5; recorrer++) {
             System.out.println("Posición " + recorrer + " valor " + vector[recorrer]);
         }
