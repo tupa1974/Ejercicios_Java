@@ -25,7 +25,7 @@ public class EjerciciosConMatriz {
             double suma = 0.0;
             for (int c = 0; c < 4; c++) {
                 if (c < 3) {
-                    System.out.println("La nota" + c + " del alumno " + f + " es " + matriz[f][c]);
+                    System.out.println("La nota " + c + " del alumno " + f + " es " + matriz[f][c]);
 
                 } else {
                     System.out.println("El promedio del alumno " + f + " es " + matriz[f][c]);
